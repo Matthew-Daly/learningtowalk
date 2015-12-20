@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio final</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,300">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="text/javascript" src="js/jquery-2.1.4.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header class="row">
+        <div id="logo" class="col-md-6">
+          <img src="images/vader-portfolio-two.jpg" class="img-responsive" alt="Darth Vader helmet with glowing eyes.">
+        </div><!-- end logo --> 
+        <div id=name/title class="col-md-6 text-right text-uppercase">
+          <h1 class="super-title text-thin">Matthew Daly</h1>
+          <h4>code-talker</h4>
+        </div><!-- end name/title -->
+      </header><!-- header ends -->
+      <div id="horizontal-rule" class="row">
+        <div class="col-md-12">
+          <hr>
+        </div>  
+      </div><!-- end horizontal-rule -->
+      <div id="main-image" class="row">
+        <div class="col-md-12">
+          <img src="images/view-out-portfolio.jpg" class="img-responsive center-block" alt="Inside a tunnel at Wat Umong, Chiang Mai, Thailand, looking out into forest." data-toggle="modal" data-target="#portfolio"> 
+        </div>
+      </div><!-- end main image -->
+      <div id="featured-work" class="row">
+        <div class="col-md-12 text-uppercase">
+          <h2 class="text-muted">featured work</h2>
+        </div>
+      </div><!--end featured work-->  
+      <nav id="pictures-links" class="row">
+        <div id="dragonflies" class="col-md-4">
+          <img src="images/dragon-flies-portfolio.jpg" class="img-responsive" alt="Picture of dragonflies on pond." data-toggle="modal" data-target="#project1">  
+          <a href="http://github.com/udacity/appify">
+            <h3 class="text-uppercase">fireflies</h3>
+            <p>http://github.com/udacity/appify</p>
+          </a>
+      </div><!-- end dragonflies -->
+      <div id="godess" class="col-md-4">
+        <img src="images/godess-portfolio.jpg" class="img-responsive" alt="Picture of minuture statue at Wat Umong, Thailand." data-toggle="modal" data-target="#project2">
+        <a href="http://github.com/udacity/sunflower">
+          <h3 class="text-uppercase">godess</h3>
+          <p>http://github.com/udacity/sunflower</p>    
+        </a>   
+      </div><!-- end godess -->
+      <div id="turtle" class="col-md-4">
+        <img src="images/turtle-portfolio.jpg" class="img-responsive" alt="Picture of turtel sticking its head out of pond." data-toggle="modal" data-target="#project3">
+          <a href="http://github.com/udacity/bokeh">                        
+            <h3 class="text-uppercase">turtle</h3>
+            <p>http://github.com/udacity/bokeh</p>  
+          </a>
+      </div><!--end turtle -->
+      </nav><!--end nav - pictues/links to work-->
+      <footer id="copywrite" class="row">
+        <div class="col-md-12">
+          <p>copyright &copy; 2015 <strong>All images the property of Matthew Daly</strong></p>
+        </div>
+      </footer><!-- end copywrite footer -->  
+      </div><!-- end container -->  
+      <!-- Modal portfolio -->
+      <div class="modal fade" id="portfolio" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title" id="myModalLabel">Portfolio</h4>
+            </div>
+            <div class="modal-body">
+              <img class="img-responsive" src="images/view-out-portfolio.jpg" alt="Inside a tunnel at Wat Umong, Chiang Mai, Thailand, looking out into forest." data-toggle="modal" data-target="#portfolio">This is a tunnel into the mind of a new coder, watch as I grow (more to come as this portfolio takes shape).
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+             </div>
+            </div>
+          </div>
+        </div><!--end of modal portfolio -->
+        <!-- Modal fireflies -->
+        <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabe2">Dragonflies</h4>
+              </div>
+              <div class="modal-body">
+              <img class="img-responsive" src="images/dragon-flies-portfolio.jpg" alt="Picture of dragonflies on pond.">
+                Here are pretty, pretty dragonflies, watch how they flutter (more to come as this portfolio takes shape).
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div><!-- end of modal fireflies -->
+        <!-- Modal godess -->
+        <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabe3">Godess</h4>
+              </div>
+              <div class="modal-body">
+                <img class="img-responsive" src="images/godess-portfolio.jpg" alt="Picture of minuture statue at Wat Umong, Thailand.">
+                Behold the wonder of this project (project coming soon, jezz hold on a minute..).
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div><!-- end of modal godesss -->
+        <!-- Modal turtle -->
+        <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabe4">Turtle</h4>
+              </div>
+              <div class="modal-body">
+                <img class="img-responsive" src="images/turtle-portfolio.jpg" alt="Picture of turtel sticking its head out of pond.">
+                From the murky below a new coder emerges (I know, I know... a little dramatic).
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div><!-- end of modal turtle -->
+    </body>
+</html>

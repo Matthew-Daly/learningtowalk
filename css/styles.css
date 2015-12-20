@@ -1,0 +1,82 @@
+/* General reset and formating */
+
+body {
+background: #0c0c04;
+font-family: "Lato", sans-serif;
+font-weight: 300;
+-webkit-font-smoothing: antialiased;
+text-rendering: optimizelegibility;
+}
+
+
+#logo {
+margin-top: 20px;
+}
+
+/* Typography */
+
+
+hr {
+border:0;
+height: 1px;
+background: #ab380b;
+background-image: linear-gradient(to right, #000, #ab380b, #000);
+}
+
+h1 {
+color: #fdf2d6;
+}
+
+
+h2 {
+color: #fdf2d6;
+font-weight: lighter;
+}
+
+h3 {
+color: #ce4d0c;
+text-align: center;
+}
+
+h4 {
+color: #ce4d0c;
+}
+
+.row p {
+text-align: center;
+}
+
+footer {
+padding: 0 15px;
+}
+
+.text-thin {
+font-weight: 100;
+}
+
+.super-title {
+font-size: 60px
+}
+
+nav p {
+font-weight: lighter;
+}
+
+/* links */
+
+a:link {
+color: #fdf2d6;
+text-decoration: none;
+}
+
+a:visited {
+color: #d17f38;
+}
+
+a:hover {
+color: #555;
+}
+
+a:hover h3 {
+color: #555;
+}
