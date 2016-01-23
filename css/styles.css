@@ -1,13 +1,13 @@
 /* General reset and formating */
 
 body {
-background: #0c0c04;
+background-color: #030202;
 font-family: "Lato", sans-serif;
 font-weight: 300;
 -webkit-font-smoothing: antialiased;
 text-rendering: optimizelegibility;
 }
-
+/*#020509*/
 
 #logo {
 margin-top: 20px;
